@@ -1,0 +1,246 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Workspace\\C#\\Golf\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EA357E00-5272-4D95-9C91-F31545159736}|Golf.csproj|c:\\workspace\\c#\\golf\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{EA357E00-5272-4D95-9C91-F31545159736}|Golf.csproj|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA357E00-5272-4D95-9C91-F31545159736}|Golf.csproj|c:\\workspace\\c#\\golf\\controllers\\reservationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA357E00-5272-4D95-9C91-F31545159736}|Golf.csproj|solutionrelative:controllers\\reservationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA357E00-5272-4D95-9C91-F31545159736}|Golf.csproj|c:\\workspace\\c#\\golf\\models\\reservationresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA357E00-5272-4D95-9C91-F31545159736}|Golf.csproj|solutionrelative:models\\reservationresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA357E00-5272-4D95-9C91-F31545159736}|Golf.csproj|c:\\workspace\\c#\\golf\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA357E00-5272-4D95-9C91-F31545159736}|Golf.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA357E00-5272-4D95-9C91-F31545159736}|Golf.csproj|c:\\workspace\\c#\\golf\\controllers\\roleconroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA357E00-5272-4D95-9C91-F31545159736}|Golf.csproj|solutionrelative:controllers\\roleconroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA357E00-5272-4D95-9C91-F31545159736}|Golf.csproj|c:\\workspace\\c#\\golf\\controllers\\placecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA357E00-5272-4D95-9C91-F31545159736}|Golf.csproj|solutionrelative:controllers\\placecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA357E00-5272-4D95-9C91-F31545159736}|Golf.csproj|c:\\workspace\\c#\\golf\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA357E00-5272-4D95-9C91-F31545159736}|Golf.csproj|solutionrelative:models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA357E00-5272-4D95-9C91-F31545159736}|Golf.csproj|c:\\workspace\\c#\\golf\\controllers\\paymenthistorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA357E00-5272-4D95-9C91-F31545159736}|Golf.csproj|solutionrelative:controllers\\paymenthistorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA357E00-5272-4D95-9C91-F31545159736}|Golf.csproj|c:\\workspace\\c#\\golf\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA357E00-5272-4D95-9C91-F31545159736}|Golf.csproj|solutionrelative:controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA357E00-5272-4D95-9C91-F31545159736}|Golf.csproj|c:\\workspace\\c#\\golf\\servises\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA357E00-5272-4D95-9C91-F31545159736}|Golf.csproj|solutionrelative:servises\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA357E00-5272-4D95-9C91-F31545159736}|Golf.csproj|c:\\workspace\\c#\\golf\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA357E00-5272-4D95-9C91-F31545159736}|Golf.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA357E00-5272-4D95-9C91-F31545159736}|Golf.csproj|c:\\workspace\\c#\\golf\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA357E00-5272-4D95-9C91-F31545159736}|Golf.csproj|solutionrelative:models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA357E00-5272-4D95-9C91-F31545159736}|Golf.csproj|c:\\workspace\\c#\\golf\\models\\paymenthistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA357E00-5272-4D95-9C91-F31545159736}|Golf.csproj|solutionrelative:models\\paymenthistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA357E00-5272-4D95-9C91-F31545159736}|Golf.csproj|c:\\workspace\\c#\\golf\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EA357E00-5272-4D95-9C91-F31545159736}|Golf.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Workspace\\C#\\Golf\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "C:\\Workspace\\C#\\Golf\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-06-01T08:38:24.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ReservationsController.cs",
+              "DocumentMoniker": "C:\\Workspace\\C#\\Golf\\Controllers\\ReservationsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ReservationsController.cs",
+              "ToolTip": "C:\\Workspace\\C#\\Golf\\Controllers\\ReservationsController.cs",
+              "RelativeToolTip": "Controllers\\ReservationsController.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAABcAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-09T09:44:36.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ReservationResponse.cs",
+              "DocumentMoniker": "C:\\Workspace\\C#\\Golf\\Models\\ReservationResponse.cs",
+              "RelativeDocumentMoniker": "Models\\ReservationResponse.cs",
+              "ToolTip": "C:\\Workspace\\C#\\Golf\\Models\\ReservationResponse.cs",
+              "RelativeToolTip": "Models\\ReservationResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T13:11:05.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Workspace\\C#\\Golf\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Workspace\\C#\\Golf\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAQwDgAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T14:35:36.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RoleConroller.cs",
+              "DocumentMoniker": "C:\\Workspace\\C#\\Golf\\Controllers\\RoleConroller.cs",
+              "RelativeDocumentMoniker": "Controllers\\RoleConroller.cs",
+              "ToolTip": "C:\\Workspace\\C#\\Golf\\Controllers\\RoleConroller.cs",
+              "RelativeToolTip": "Controllers\\RoleConroller.cs",
+              "ViewState": "AQIAAF0AAAAAAAAAAAAowIgAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-09T10:02:34.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PlaceController.cs",
+              "DocumentMoniker": "C:\\Workspace\\C#\\Golf\\Controllers\\PlaceController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PlaceController.cs",
+              "ToolTip": "C:\\Workspace\\C#\\Golf\\Controllers\\PlaceController.cs",
+              "RelativeToolTip": "Controllers\\PlaceController.cs",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAowFwAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-09T09:51:27.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Workspace\\C#\\Golf\\Models\\Role.cs",
+              "RelativeDocumentMoniker": "Models\\Role.cs",
+              "ToolTip": "C:\\Workspace\\C#\\Golf\\Models\\Role.cs",
+              "RelativeToolTip": "Models\\Role.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T15:35:19.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PaymentHistoryController.cs",
+              "DocumentMoniker": "C:\\Workspace\\C#\\Golf\\Controllers\\PaymentHistoryController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PaymentHistoryController.cs",
+              "ToolTip": "C:\\Workspace\\C#\\Golf\\Controllers\\PaymentHistoryController.cs",
+              "RelativeToolTip": "Controllers\\PaymentHistoryController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAJEAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-09T11:30:44.911Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Workspace\\C#\\Golf\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Workspace\\C#\\Golf\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "Controllers\\UsersController.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAzwB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T13:54:42.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Utils.cs",
+              "DocumentMoniker": "C:\\Workspace\\C#\\Golf\\Servises\\Utils.cs",
+              "RelativeDocumentMoniker": "Servises\\Utils.cs",
+              "ToolTip": "C:\\Workspace\\C#\\Golf\\Servises\\Utils.cs",
+              "RelativeToolTip": "Servises\\Utils.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T10:19:06.304Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Workspace\\C#\\Golf\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Workspace\\C#\\Golf\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwBEAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T13:55:40.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Reservation.cs",
+              "DocumentMoniker": "C:\\Workspace\\C#\\Golf\\Models\\Reservation.cs",
+              "RelativeDocumentMoniker": "Models\\Reservation.cs",
+              "ToolTip": "C:\\Workspace\\C#\\Golf\\Models\\Reservation.cs",
+              "RelativeToolTip": "Models\\Reservation.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAowBgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T13:26:16.193Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PaymentHistory.cs",
+              "DocumentMoniker": "C:\\Workspace\\C#\\Golf\\Models\\PaymentHistory.cs",
+              "RelativeDocumentMoniker": "Models\\PaymentHistory.cs",
+              "ToolTip": "C:\\Workspace\\C#\\Golf\\Models\\PaymentHistory.cs",
+              "RelativeToolTip": "Models\\PaymentHistory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-09T11:29:50.427Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Workspace\\C#\\Golf\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Workspace\\C#\\Golf\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-09T12:17:57.718Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
