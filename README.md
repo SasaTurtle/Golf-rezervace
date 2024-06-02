@@ -7,7 +7,9 @@
 <img width="959" alt="image" src="https://github.com/SasaTurtle/Golf-rezervace/assets/56025180/8cfa7f09-dceb-4c3f-916b-350f974868a1">
 <p>Potom si muze vybrat nazev rezervace a ulozit ji. Rezervace se potom zapise do databaze.</p>
 <h4>Update</h4>
-Kdyz uzivatel klikne na svoji rezervaci tak ji muze updatnout. Zmeny se updatnou i v databazi.
+Kdyz uzivatel klikne na svoji rezervaci tak ji muze updatnout nazev, zacatek a konec . Zmeny se updatnou i v databazi. Jenom na strance se updatnou az po obnoveni.
+<img width="341" alt="image" src="https://github.com/SasaTurtle/Golf-rezervace/assets/56025180/7a9b1d63-a4d8-4ca6-8868-1317f4e20b2d">
+
 
 <h4>Delete</h4>
 <p>Pokud si to uzivatel rozmysli, tak rezervaci muze smazat. Staci na ni kliknout a vybrat "Odstranit Rezervaci". Rezervace se nasledne smaze z kalendare a z databaze.</p>
