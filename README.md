@@ -22,11 +22,17 @@ Do projektu jsou doinstalovan bootstrap, ktery usnadnuje tvorbu komponent. Kompo
 Pro komponentu kalendar jsem pouzil komponentu 3. strany "Full calendar" 
 https://fullcalendar.io/</p>
 
-<h4>Struktura Reaktove komponenty</h4>
+<h4>Struktura Reaktové komponenty</h4>
 <p>Reaktova komponenta obsahuje return ve ktere je HTML kod. Dale pouzivam reaktove hooky 'useState' a 'useEffect'. Pro komunikaci se serverem pouzivam js funkce fetch nebo axios komponenty. Kazde zabezpecene volani funkce ma ve sve hlavicce (head) zakompomponovany bearer token.
 Dale jsou kvuli CORS dalsi atributy nastavene v headeru.</p>
 
 <p>Kod je podle standardu microsoftu a reaktu</p>
+
+<h3>Další screenshoty</h3>
+<img width="949" alt="image" src="https://github.com/SasaTurtle/Golf-rezervace/assets/56025180/231ea2b3-73ff-4fe7-8db7-5bf46b072e2d">
+<img width="951" alt="image" src="https://github.com/SasaTurtle/Golf-rezervace/assets/56025180/cf159370-5cc0-48a4-9d9c-9eff6a8de61f">
+<img width="942" alt="image" src="https://github.com/SasaTurtle/Golf-rezervace/assets/56025180/5aeef150-37ee-4b4d-b00a-17df402ecfd2">
+
 
 <h2>Backend</h2>
 <p>Projekt bezi na mssql serveru a logika je vytvorena v .NET core projektu za pomoci Entity Frameworku (EF).
