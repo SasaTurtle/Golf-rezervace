@@ -7,17 +7,19 @@ import Logo from '../assets/logo.png';
 import axios from "axios";
 import authHeader from "../auth/auth-header";
 import TabView from './tabview';
+import TabViewHistory from "./tabviewHistory";
 
-const API_URL = "https://localhost:44304/api";
+const API_URL = process.env.REACT_APP_LINK1;
 
 
 const MyReservation = () => {
-  const [events, setEvents] = useState({});
+  const [events, setEvents] = useState([{"id":1,"user_id":1,"place_id":2,"from":"","to":"","title":""}]);
+  const [eventsHistory, setEventsHistory] = useState([{"id":1,"user_id":1,"place_id":2,"from":"","to":"","title":""}]);
   //const [loading, setLoading] = useState(false);
 
 
   function myReservation() {
-    fetch('https://localhost:44304/api/Reservation/rezervace',{
+    fetch(API_URL + '/Reservation/rezervace',{
        method: 'GET',
        headers: {
         "Content-type": "application/text; charset=UTF-8",
@@ -27,9 +29,20 @@ const MyReservation = () => {
     })
     .then(res => res.json())
     .then(res => {
-        var a = res;
-        setEvents(a);
-        console.log(events);
+        var ev = res;
+         var evFuture = [];
+         var evHistory = [];
+         for(let i=0; i < ev.length;i++){
+          var a = ev[i];
+            if(new Date(a.from) > Date.now()){
+              evFuture.push(a);
+            }else{
+              evHistory.push(a);
+            }
+         }
+        setEvents(evFuture);
+        setEventsHistory(evHistory);
+       
     })
   }
 
@@ -44,7 +57,10 @@ const MyReservation = () => {
     >
       {/* Overlay */}
       <div className="sign-in__backdrop">
-        <TabView contentData={events} />
+      <h1>Aktuální Rezervace</h1>
+      <TabView contentData={events}/>
+      <h1>Historie Rezervací</h1>
+      <TabViewHistory contentData={eventsHistory}/>
       
     </div>
     </div>

@@ -1,4 +1,4 @@
-export default function TabView({ contentData, ...rest }) {
+export default function TabView({ contentData,  ...rest }) {
     const options = {
         year: 'numeric',
         month: 'long',

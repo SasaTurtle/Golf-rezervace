@@ -8,7 +8,7 @@ import Logo from '../assets/logo.png';
 import axios from "axios";
 import authHeader from "../auth/auth-header";
 
-const API_URL = "https://localhost:44304/api";
+const API_URL = process.env.REACT_APP_LINK1;
 
 
 const Register = () => {

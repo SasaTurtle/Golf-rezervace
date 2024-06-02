@@ -18,20 +18,24 @@ export default function Calendar() {
   const [events, setEvents] = useState([]);
   const [selectedInfoState, setSelectedInfoState] = useState({});
 
+  const [fromDate, setFromDate] = useState('');
+  const [toDate, setToDate] = useState('');
+
+
   const [weekendsVisible, setWeekendsVisible] = useState(true)
   const [currentEvents, setCurrentEvents] = useState([])
+  const URL = process.env.REACT_APP_LINK1;
 
-  
   function handleDateSelect(selectInfo) {
     const start = Date.now();
+    setSelectedInfoState(selectInfo);
     if(start<selectInfo.start){
       setShow(true);
-      setSelectedInfoState(selectInfo);
-    }
+     }
   }
 
   function createEvents(from, to, title) {
-    fetch("https://localhost:44304/api/Reservation", {
+    fetch(URL + "/Reservation", {
      method: "POST",
      body: JSON.stringify({
        "id": 0,
@@ -74,7 +78,7 @@ export default function Calendar() {
   } 
 
   function updateEvents(id, from, to, title) {
-    fetch("https://localhost:44304/api/Reservation/" + id, {
+    fetch(URL + "/Reservation/" + id, {
      method: "PUT",
      body: JSON.stringify({
        "id": id,
@@ -94,21 +98,21 @@ export default function Calendar() {
      if (!response.ok) {
          throw response; 
      }
-     return response.json();
+     setShowUpdate(false);
    })
-   .then((data) => {
-      console.log(data);
-      setShowUpdate(false);
+  //  .then((data) => {
+  //     console.log(data);
+  //     setShowUpdate(false);
 
-      return data;
-     })
+  //     return data;
+  //    })
    .catch(function(error) {
        console.log( error)
      });
   } 
 
   function deleteEvents(id,clickInfo) {
-    fetch('https://localhost:44304/api/Reservation/' + id, {
+    fetch(URL + "/Reservation" + id, {
        method: 'DELETE',
        headers: {
         "Content-type": "application/text; charset=UTF-8",
@@ -144,7 +148,7 @@ export default function Calendar() {
     console.log(selectedInfoState.startStr +"|"+ selectedInfoState.endStr);
     calendarApi.unselect() // clear date selection
     if (title) {
-      updateEvents(selectedInfoState.startStr,selectedInfoState.endStr,title,selectedInfoState.event._def.extendedProps.publicId);
+      updateEvents(selectedInfoState.event._def.extendedProps.publicId,fromDate,toDate,title);
     }
     
   } 
@@ -154,7 +158,7 @@ export default function Calendar() {
     let calendarApi = selectedInfoState.view.calendar
     console.log(selectedInfoState.startStr +"|"+ selectedInfoState.endStr);
     calendarApi.unselect() // clear date selection
-       if (window.confirm(`Jsi si jistý?'${selectedInfoState.title}'`)) {
+       if (window.confirm(`Jsi si jistý?`)) {
           deleteEvents(selectedInfoState.event._def.extendedProps.publicId,selectedInfoState)
        }
   } 
@@ -165,10 +169,17 @@ export default function Calendar() {
     
   } 
 
+  function datetimeconv(d) { 
+    d = new Date(d.toLocaleString())
+      return d.getFullYear().toString()+"-"+((d.getMonth()+1).toString().length==2?(d.getMonth()+1).toString():"0"+(d.getMonth()+1).toString())+"-"+(d.getDate().toString().length==2?d.getDate().toString():"0"+d.getDate().toString())+"T"+(d.getHours().toString().length==2?d.getHours().toString():"0"+d.getHours().toString())+":"+((parseInt(d.getMinutes()/5)*5).toString().length==2?(parseInt(d.getMinutes()/5)*5).toString():"0"+(parseInt(d.getMinutes()/5)*5).toString())+":00";
+  }
+
+  
   function handleEventClick(clickInfo) {
    //clickInfo.event.extendedProps.publicId
    if(clickInfo.event.backgroundColor!=="#cdcdcd"){
-   
+    setFromDate(datetimeconv(clickInfo.event._instance.range.start));
+    setToDate(datetimeconv(clickInfo.event._instance.range.end));
     setShowUpdate(true);
     let calendarApi = setSelectedInfoState(clickInfo);
     setNewEventName(clickInfo.event._def.title);
@@ -202,14 +213,14 @@ export default function Calendar() {
     var head = "";
     if(localStorage.getItem("user")!= null)
     { 
-      urlEvents = "https://localhost:44304/api/Reservation/params";
+      urlEvents = URL + "/Reservation/params";
       head = {
         "Content-type": "application/json; charset=UTF-8",
         'Access-Control-Allow-Origin' : '*',
         'Authorization': "Bearer " + localStorage.getItem("user").replace(/"/g, "")
       }
     }else{
-      urlEvents = "https://localhost:44304/api/Reservation/all";
+      urlEvents = URL + "/Reservation/all";
       head = {
         "Content-type": "application/json; charset=UTF-8",
         'Access-Control-Allow-Origin' : '*'
@@ -220,7 +231,7 @@ export default function Calendar() {
             method: "POST",
             body: JSON.stringify({
               "from": "2019-03-08T13:14:35.557",
-              "to": "2024-10-16T13:14:35.557"
+              "to": "2026-10-16T13:14:35.557"
             }),
             headers:head
           }) 
@@ -324,7 +335,21 @@ export default function Calendar() {
                 autoFocus
                 value={newEventName}
               />
-            </Form.Group>
+
+              <Form.Label>Zmenit cas od:</Form.Label>
+              <Form.Control
+                type="datetime-local"
+                value={fromDate}
+                onChange={(e) => setFromDate(e.target.value)}
+              />
+
+              <Form.Label>Zmenit cas do:</Form.Label>
+              <Form.Control
+                type="datetime-local"
+                value={toDate}
+                onChange={(e) => setToDate(e.target.value)}
+              />
+        </Form.Group>
         </Modal.Body>
         <Modal.Footer>
           <Button variant="primary" onClick={handleModalUpdate}>

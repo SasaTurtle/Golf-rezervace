@@ -1,7 +1,7 @@
 import axios from "axios";
 import authHeader from "./auth-header";
 
-const API_URL = "https://localhost:44304/api";
+const API_URL = process.env.REACT_APP_LINK1;
 
 class AuthService {
   
@@ -31,7 +31,7 @@ class AuthService {
   }
 
   readEvents(from, to) {
-         fetch("https://localhost:44304/api/Reservation/params", {
+         fetch(API_URL + "/Reservation/params", {
           method: "POST",
           body: JSON.stringify({
             "from": "2019-03-08T13:14:35.557",
@@ -61,7 +61,7 @@ class AuthService {
 
 
   createEvents(from, to, title) {
-         fetch("https://localhost:44304/api/Reservation", {
+         fetch(API_URL + "/Reservation", {
           method: "POST",
           body: JSON.stringify({
             "id": 0,
@@ -93,7 +93,7 @@ class AuthService {
   }
 
   readEventsAll(from, to) {
-    fetch("https://localhost:44304/api/ReservationAll", {
+    fetch(API_URL + "/ReservationAll", {
           method: "POST",
           body: JSON.stringify({
             "from": "2019-03-08T13:14:35.557",
